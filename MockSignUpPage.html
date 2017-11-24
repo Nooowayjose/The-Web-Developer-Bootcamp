@@ -1,0 +1,80 @@
+<!-- Mock Sign up -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+  </head>
+<!-- Body -->
+<body>
+
+  <h1>Register</h1>
+  <!-- Registration form -->
+  <form>
+    <!-- FirstName -->
+    <label for="FirstName">First Name:</label>
+    <input id="FirstName" type="text" name="FIRSTNAME" placeholder="First Name" required>
+    <!-- LastName -->
+    <label for="LastName">Last Name:</label>
+    <input id="LastName" type="text" name="LASTNAME" placeholder="Last Name" required>
+
+<br>
+    <!-- Radio Buttons -->
+    <label for="male">Male:</label>
+    <input id="male" type="radio" name="Gender" required>
+    <label for="female">Female:</label>
+    <input id="female" type="radio" name="Gender" required>
+    <label for="other">Other:</label>
+    <input id="other" type="radio" name="Gender" required>
+<br>
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input id="email" type="email" name="EMAIL" placeholder="Email" required>
+    <!-- Email Password -->
+    <label for="Password">Password:</label>
+    <input id="Password" type="password" placeholder="Password" required minlength="5" maxlength="10" size="10">
+    <!-- Birthday -->
+<br>
+    <label>Birthday:</label>
+    <select name="Month">
+      <option value="Month" selected>Month</option>
+      <option value="January">January</option>
+      <option value="February">February</option>
+      <option value="March">March</option>
+      <option value="April">April</option>
+      <option value="May">May</option>
+      <option value="June">June</option>
+      <option value="July">July</option>
+      <option value="August">August</option>
+      <option value="September">September</option>
+      <option value="October">October</option>
+      <option value="November">November</option>
+      <option value="December">December</option>
+    </select>
+
+    <select name="Day">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+
+    <select name="year">
+      <option value="1994">1994</option>
+      <option value="1995">1995</option>
+    </select>
+<br>
+<!-- Terms -->
+<label for="agreement">I agree to the terms and conditions</label>
+<input id="agreement"type="checkbox" required>
+
+<br>
+    <!-- Submit button-->
+    <button>Submit</button>
+  </form>
+
+<!-- End of body -->
+</body>
+
+
+</html>

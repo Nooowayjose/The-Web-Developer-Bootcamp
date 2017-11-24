@@ -1,0 +1,27 @@
+h1{
+  color: red;
+  /*border-color: purple;
+  border-width: 5px;
+  border-style: solid;*/
+
+  border: purple 5px dotted;
+}
+
+h4{
+  background: rgb(100, 0, 100);
+  color: white;
+}
+
+
+body{
+  background: url(https://forums.unrealengine.com/filedata/fetch?id=1113441&d=1470732920);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+
+/*Boders Have:
+
+1. width
+2. Color
+3. style*/

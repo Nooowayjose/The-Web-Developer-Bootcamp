@@ -1,0 +1,21 @@
+/*todo.css*/
+
+body{
+  background: orange;
+}
+
+li{
+  border: 2px solid teal;
+}
+
+#special{
+  border: 2px solid black;
+  background: teal;
+}
+
+.completed{
+  text-decoration: wavy line-through teal;
+  /*text-align: center;*/
+  /*text-shadow: 5px 2px white;*/
+  color: yellow;
+}
