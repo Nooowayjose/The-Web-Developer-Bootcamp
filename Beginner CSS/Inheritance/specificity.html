@@ -1,0 +1,91 @@
+<!-- Reference End of file (EOF) for more info -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Specificity</title>
+
+<!-- style  -->
+    <style type="text/css">
+
+      body{
+        color:red;
+      }
+
+      ul{   /* li inherets ul colors, Reference dev inspector*/
+        color: blue;
+      }
+
+      li{      /*li specificity overules the previous inheretance of ul*/
+        color: orange;
+      }
+
+      /*Class beats the li*/
+      .highlight{
+        color: yellow;
+      }
+      /*special beats the class, li, ul, and body */
+      #special{
+        color: pink;
+      }
+
+    </style>
+  </head>
+
+<!-- body -->
+  <body>
+    <p>HELOOOOOOLLOLOL</p>
+    <ul>
+      <li id="special" class="highlight">John</li>
+      <li>Paul</li>
+      <li>George</li>
+      <li class="highlight">Ringo</li>
+    </ul>
+  </body>
+</html>
+
+
+
+<!-- specificity -->
+<!-- Will be writing CSS directly on the HTML file (not recommended), but this is for demonstration purposes -->
+<!-- Basically showing which selector types have higher priority -->
+<!-- Check out https://specificity.keegan.st/ for a more specific calculator to calculate priority-->
+
+<!-- Type Selectors
+
+li{
+
+}
+
+li a{
+
+}
+
+li + a{
+
+}
+
+-->
+
+<!-- class, attribute, and pseudo class selectors
+
+.hello{
+
+}
+
+input[type="text"]{
+
+}
+
+
+-->
+
+<!-- ID Selectors
+
+#hello{
+
+}
+
+
+-->
