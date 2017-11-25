@@ -1,0 +1,21 @@
+/*photo.css*/
+/*30%*/
+img{
+  width: 30%;
+  float: left;
+  margin:1.66%;
+}
+
+/*Customizing my own border and margin*/
+
+div{
+  font-family: 'Cabin', sans-serif;
+  border-bottom: 3px solid lightgray;
+  /*border-bottom-right-radius: 30px;*/
+  /*padding-left: 5%;
+  text-align: right;*/
+  width: 50%;
+  margin-left: 1.6%;
+
+
+}

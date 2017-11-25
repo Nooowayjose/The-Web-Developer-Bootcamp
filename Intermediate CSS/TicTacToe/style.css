@@ -1,0 +1,44 @@
+/*tictactoe*/
+
+body{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  color: teal;
+}
+
+table{
+  margin: auto;
+  border-collapse: collapse;
+}
+
+td{
+  height: 80px;
+  width: 100px;
+}
+
+/*Table 1 Grid*/
+
+#table1 .horizontal{
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#table1 .vertical{
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+
+/*Table 3*/
+
+#cleanTable td{
+  border: 2px solid black;
+}
+
+#cleanTable{
+  border: hidden;
+  border-collapse: collapse;
+}
