@@ -1,0 +1,37 @@
+/*style.css*/
+/*date color: #3498db*/
+
+
+h1{
+  color: #2c3e50;
+}
+
+body{
+  font-family: "Source Sans Pro", sans-serif;
+  /*background-color: teal;*/
+
+  margin: 2% 10% 0% 10%;
+  border: 20px solid #bdc3c7;
+  padding-bottom: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+  /*margin-bottom: 50%;*/
+
+}
+
+div{
+  margin: 20px;
+  border-left: 50%;
+  text-transform: capitalize;
+}
+
+#Date{
+  text-transform: uppercase;
+  margin-left: 5%;
+  color: teal;
+}
+
+span{
+  border-left: 2px solid gray;
+  
+}
