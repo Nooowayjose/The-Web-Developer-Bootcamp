@@ -1,0 +1,16 @@
+/*style*/
+
+/*
+.row.flex {
+    display: inline-flex;
+    width: 100%;
+}*/
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*//Figure out this flexbox glitch later*/
+/*#market{
+  margin: 0.5%;
+}*/
