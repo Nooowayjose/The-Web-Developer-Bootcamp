@@ -1,0 +1,32 @@
+document.URL;
+document.head;
+document.body;
+document.links;
+
+//Methods
+
+document.getElementByid();
+document.getElementsByClassName();
+document.getElementsByTagName();
+document.querySelector();
+document.querySelectorAll();
+
+
+
+//Access the first paragraph using 4 different methods.
+//I did them on the console so I'm going to skip this.
+//Pasting Colt's solutions instead.
+
+
+document.getElementByid("first");
+document.querySelector("#first");
+document.getElementsByClassName("special")[0];
+document.querySelector(".special");
+document.querySelectorAll(".special")[0];
+document.getElementsByTagName("p")[0];
+document.querySelector("p");
+document.querySelectorAll("p")[0];
+
+
+//Harder way of doing stuff
+document.querySelector("h1 + p");
