@@ -1,0 +1,11 @@
+.someclass{
+  color:purple;
+  fontSize: 76px;
+}
+
+//initializing tag to the selection of h1
+var tag = document.querySelector("h1")
+
+tag.classList.add("someclass");
+tag.classList.remove("someclass");
+tag.classList.toggle("someclass");
