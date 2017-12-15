@@ -11,3 +11,11 @@
 // 	alert("A button has been clicked!");
 //
 // });
+
+// $('input').keypress(function(){
+//   console.log("why u do this??");
+// });
+
+$('input').keypress(function(event){
+  console.log("why u do this??");
+});
